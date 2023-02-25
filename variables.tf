@@ -10,9 +10,6 @@ variable "vpc" {
 }
 
 ## PROFILE
-variable "profile" {
-  default = "kubeadrianoiac"
-}
 variable "region" {
   default = "us-east-1"
 }
