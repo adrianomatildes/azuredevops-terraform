@@ -1,7 +1,7 @@
 trigger:
 - master
 pool:
-  vmImages: ubuntu-latest
+  vmImages: DevOps-pool
 
 steps:
   - script: dir $(Build.SourcesDirectory)
